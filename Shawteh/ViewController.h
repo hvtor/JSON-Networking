@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
-
+    @property (strong, nonatomic) NSString *APILogin;
+    @property (strong, nonatomic) NSString *APIKey;
+    @property (strong, nonatomic) NSString *longURL;
+    @property (strong, nonatomic) NSString *requestString;
 @end
 
